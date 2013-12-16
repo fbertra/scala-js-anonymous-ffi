@@ -22,6 +22,6 @@ The "Params" class in "SuperJavascriptAPI.scala" is the Scala representation of 
 As "Params" extends js.Object and the class "Params" doesn't exist in the Javascript lib, we need to provide a implementation 
 of the "Params" function: this is done in "src/main/resources/anonymous.js"
 
-The scala-js-anonymous-ffi-client desmostrate how to use the Scala API
+The "scala-js-anonymous-ffi-client" project shows how to use the Scala API
 
 
