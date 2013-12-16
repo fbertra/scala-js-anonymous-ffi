@@ -17,6 +17,8 @@ Examples of javascript call:
    
    var msg = doSomething ("hello world", {"id" : "scala-js"}, "desc": "a scala to JS compiler") ; 
 
-
+The "Params" class in "SuperJavascriptAPI.scala" is the Scala representation of the anonymous object expected by "doSomething".  
+As "Params" extends js.Object and the class "Params" doesn't exist in the Javascript lib, we need to provide a implementation 
+of the "Params" function: this is done in "src/main/resources/anonymous.js"
 
 
